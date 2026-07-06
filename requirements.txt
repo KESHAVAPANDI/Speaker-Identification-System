@@ -7,6 +7,9 @@ torchaudio>=2.0.0
 # SpeechBrain toolkit for speaker recognition
 speechbrain>=1.0.0
 
+# Hugging Face transformers for SOTA WavLM models
+transformers>=4.30.0
+
 # Audio processing
 librosa>=0.10.0
 soundfile>=0.12.0
