@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints & outputs
+checkpoints/
+results/
+logs/
+runs/
+pretrained_models/
+temp_uploads/
+*.pt
+*.pth
+*.ckpt
+
+# Datasets (large files)
+data/raw/
+data/processed/
+data/voxceleb*/
+*.wav
+*.flac
+*.mp3
+
+# Keep mini dataset generator but not generated data
+!scripts/generate_mini_dataset.py
+data/mini_dataset/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Project document
+*.pdf
